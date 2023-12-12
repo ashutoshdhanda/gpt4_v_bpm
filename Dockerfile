@@ -15,7 +15,7 @@ RUN git clone https://github.com/ashutoshdhanda/gpt4_v_bpm.git
 WORKDIR /usr/src/app/gpt4_v_bpm
 
 # Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install streamlit
 
 # Make port 8501 available to the world outside this container
 EXPOSE 8501
