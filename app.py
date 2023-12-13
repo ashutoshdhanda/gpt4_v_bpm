@@ -95,7 +95,7 @@ def main():
 
     with st.sidebar:
 
-        st.image("/app/genai_prototipos/Deloitte_Logo.jpg", width=300)
+        st.image("./Deloitte_Logo.jpg", width=300)
 
         api_key = st.sidebar.text_input("Ingrese la clave Openai y presione Enter.", type="password")
 
